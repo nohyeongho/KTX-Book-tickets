@@ -42,3 +42,22 @@ python ktx_macro.py
 ### 3단계: 예약 성공 및 결제
 - 좌석이 확보되면 컴퓨터 스피커로 **"삐- 삐- 삐-" 강력한 비프음 알람**이 울립니다.
 - 스마트폰의 **[코레일톡 앱] > [장바구니/예약내역]**에 들어가서 10~20분 유예 시간 내에 결제하시면 됩니다!
+
+
+###.4 다른 PC에서 실행하려면
+
+
+1. **파이썬(Python) 및 크롬(Chrome) 브라우저 설치**
+2. **코드 다운로드**:
+   ```bash
+   git clone https://github.com/nohyeongho/KTX-Book-tickets.git
+   ```
+3. **폴더 이동 및 필수 라이브러리 설치**:
+   ```bash
+   cd KTX-Book-tickets
+   pip install -r requirements.txt
+   ```
+4. **실행**:
+   ```bash
+   python ktx_macro.py
+   ```
